@@ -1,65 +1,51 @@
 # Voice-Based Expense Tracker
 
-## Overview
-The **Voice-Based Expense Tracker** is a user-friendly application that allows users to track their expenses using voice commands or text input. The app processes voice commands like `Add 500 food` or `Show report` to record expenses and display insightful visual reports.
+## Project Overview
+The **Voice-Based Expense Tracker** is a simple yet powerful tool that allows users to track their daily expenses using voice commands. With an intuitive interface and speech recognition capabilities, users can add expenses and generate expense reports effortlessly.
 
 ## Features
-- 🎙️ **Voice Input:** Add expenses using natural language.
-- 📊 **Expense Reports:** View expense summaries with interactive pie charts.
-- 📝 **Manual Entry:** Option to enter expenses via text input.
-- 📈 **Real-Time Visualization:** Displays dynamic charts for better insights.
+- 🎙️ **Voice-Based Input**: Add expenses using simple voice commands like:
+  - *"Add 500 food"*
+  - *"Add 200 transport"*
+- 📊 **Expense Report Generation**: View a pie chart representation of your expenses.
+- 💾 **Data Storage**: Saves expense data in CSV format (`expenses.csv`).
 
-## Installation
-Ensure you have Python installed, then clone the repository and install dependencies:
-
+## How to Run
+1. **Clone the repository:**
 ```bash
-# Clone the repository
 git clone https://github.com/JANGAMBALACHANDRAMOHANREDDY/Voice-Expense-Tracker.git
-
-# Navigate to the project directory
+```
+2. **Navigate to the project directory:**
+```bash
 cd Voice-Expense-Tracker
-
-# Install dependencies
+```
+3. **Install dependencies:**
+```bash
 pip install -r requirements.txt
 ```
-
-## Usage
-Run the main program to start the expense tracker:
-
+4. **Run the project:**
 ```bash
 python main.py
 ```
 
-### Sample Commands
-- **Add expense:** `Add 500 food`
-- **Show report:** `Show report`
+## Dependencies
+Ensure you have the following libraries installed:
+- `speech_recognition`
+- `matplotlib`
+- `pandas`
+- `tkinter`
 
-## Project Structure
-```
-Voice-Expense-Tracker/
-│
-├── main.py                # Main application file
-├── requirements.txt       # Project dependencies
-├── README.md              # Project documentation
-└── ...
-```
-
-## Technologies Used
-- **Python**
-- **Matplotlib** for data visualization
-- **Tkinter** for GUI development
-- **SpeechRecognition** for voice input processing
+## Usage
+- **Add Expenses**: Use the voice input to add expenses.
+- **Show Report**: Say *"Show report"* to view a graphical representation of your spending.
 
 ## Contributing
-Feel free to fork this repository, make enhancements, and submit a pull request. Contributions are welcome!
-
-## Author
-Developed by [Jangam Bala Chandra Mohanreddy](https://github.com/JANGAMBALACHANDRAMOHANREDDY)
+Contributions are welcome! If you'd like to add new features or improve the existing ones, feel free to fork the repo and raise a pull request.
 
 ## License
 This project is licensed under the MIT License.
 
 ---
 
-Let me know if you'd like to add anything else, bujii! 😊
+🚀 Developed by **Jangam Bala Chandra Mohanreddy**
 
